@@ -27,7 +27,7 @@ const About = () => {
               ingredients that nourish your skin and respect the environment.
             </p>
             <p className="text-gray-700 mb-4">
-              From small beginnings, we've grown into a trusted brand for those seeking safe, natural, and eco-friendly beauty alternatives.
+              From small beginnings, we&apos;ve grown into a trusted brand for those seeking safe, natural, and eco-friendly beauty alternatives.
             </p>
           </div>
 
@@ -37,17 +37,17 @@ const About = () => {
               <b>Natural Ingredients</b>
               <br />
               Our products are made with love and care, free from parabens, sulfates, and synthetic fragrances. We use plant-based extracts, essential oils, and
-              other earth-derived ingredients that bring out your skin's natural glow.
+              other earth-derived ingredients that bring out your skin&apos;s natural glow.
             </p>
             <p className="text-gray-700 mb-4">
               <b>Sustainability</b>
               <br />
-              Caring for your skin shouldn't harm the planet. That's why we prioritize eco-friendly packaging, ethical sourcing, and cruelty-free practices.
+              Caring for your skin shouldn&apos;t harm the planet. That&apos;s why we prioritize eco-friendly packaging, ethical sourcing, and cruelty-free practices.
             </p>
             <p className="text-gray-700 mb-4">
               <b>For Everyone</b>
               <br />
-              We believe beauty should be inclusive. Whether you have sensitive, oily, or combination skin, we've got products tailored to your needs.
+              We believe beauty should be inclusive. Whether you have sensitive, oily, or combination skin, we&apos;ve got products tailored to your needs.
             </p>
           </div>
 
@@ -73,14 +73,14 @@ const About = () => {
           <div className="h-full">
             <h2 className="text-3xl font-bold mb-6 text-blue-600">Join Our Journey</h2>
             <p className="text-gray-700 mb-4">
-              8GROUP isn't just a brand—it's a community of individuals who care about what they put on their skin and the impact it has on the world. We invite
+              8GROUP isn&apos;t just a brand—it&apos;s a community of individuals who care about what they put on their skin and the impact it has on the world. We invite
               you to explore our collection, discover the benefits of natural beauty, and become part of a movement that celebrates self-care and
               sustainability.
             </p>
             <p className="text-gray-700 mb-4">
               <b>Connect with Us!</b>
               <br />
-              Have questions or feedback? We'd love to hear from you. Reach out to us at Email. Let's embrace beauty the way nature intended—pure, simple, and
+              Have questions or feedback? We&apos;d love to hear from you. Reach out to us at Email. Let&apos;s embrace beauty the way nature intended—pure, simple, and
               effective.
             </p>
           </div>
@@ -97,7 +97,7 @@ const About = () => {
               {
                 icon: <Leaf className="w-16 h-16 mx-auto text-green-500 mb-4" />,
                 title: "Sustainability",
-                description: "We're committed to reducing environmental impact through recyclable packaging and responsibly sourced ingredients.",
+                description: "We&apos;re committed to reducing environmental impact through recyclable packaging and responsibly sourced ingredients.",
               },
               {
                 icon: <Star className="w-16 h-16 mx-auto text-yellow-500 mb-4" />,
