@@ -1,4 +1,3 @@
-import { FiSearch } from 'react-icons/fi';
 import Link from 'next/link';
 import './globals.css';
 import { ToastContainer } from 'react-toastify';
@@ -12,11 +11,11 @@ export const metadata = {
   description: 'Create by Group 8',
 };
 
-export default async function RootLayout({ children }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className= "h-screen w-screen min-h-screen flex flex-col">
-        <CartProvider>
+            <CartProvider>
           <div className="w-full lg:min-h-16 min-h-48 h-48 lg:h-16 px-5 lg:fixed top-0 left-0 lg:z-50 bg-white shadow-md">
             <div className="w-full grid h-full md:grid-rows-3 md:grid-cols-1 lg:grid-cols-3 lg:grid-rows-1">
               <Link
@@ -47,22 +46,14 @@ export default async function RootLayout({ children }) {
                     About
                   </Link>
                 </div>
-                {/* <div className="w-1/4 text-center group h-full !text-black relative font-semibold after:absolute after:h-0 after:w-0 after:bg-sky-800 after:left-1/2 overflow-hidden after:bottom-0 after:hover:h-1 after:hover:w-1 after:translate-x-full after:hover:scale-x-[300] after:hover:transition-all after:hover:duration-500 after:transition-all after:duration-500 transition-all duration-500 text-2xl">
-                  <Link href="/contact" className="w-full h-full block content-center">
-                    Contact
-                  </Link>
-                </div> */}
               </div>
               <div className="w-1/2 h-full flex flex-grow justify-between items-center lg:place-self-end place-self-center">
                 <UserBtn />
-                <button className="w-1/3 h-full flex items-center justify-center bg-transparent rounded-none relative font-semibold after:absolute after:h-0 after:w-0 after:bg-sky-800 after:left-1/2 overflow-hidden after:bottom-0 after:hover:h-1 after:hover:w-1 after:translate-x-full after:hover:scale-x-[300] after:hover:transition-all after:hover:duration-500 after:transition-all after:duration-500 transition-all duration-500">
-                  <FiSearch />
-                </button>
                 <CartBtn/>
               </div>
             </div>
           </div>
-          <div className="w-full flex-grow pt-14 bg-slate-100">
+          <div className="w-full min-h-screen flex-grow pt-14 bg-slate-100">
               {children}
           </div>
           <div className="h-auto bg-sky-800 grid md:grid-rows-2 md:grid-cols-1 lg:grid-cols-2 lg:grid-rows-1 place-items-center py-3">
@@ -89,8 +80,8 @@ export default async function RootLayout({ children }) {
               ></iframe>
             </div>
           </div>
+            </CartProvider>
           <ToastContainer />
-        </CartProvider>
       </body>
     </html>
   );
