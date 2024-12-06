@@ -78,7 +78,7 @@ export default function Login() {
           </button>
         </form>
         <div className="w-full flex flex-row justify-around items-center">
-          <h1 className="text-sm h-fit text-sky-800 text-center">Don&apos;t have account?</h1>
+          <h1 className="text-sm h-fit text-sky-800 text-center">Don't have account?</h1>
           <button className="w-auto !text-sky-800 text-lg" onClick={() => router.push("/register")}>
             Register
           </button>
