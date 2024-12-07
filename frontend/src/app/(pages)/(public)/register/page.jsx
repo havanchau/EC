@@ -17,7 +17,7 @@ const Register = () => {
       name: e.target[0].value,
       username: e.target[2].value,
       phone: e.target[4].value,
-      email: e.target[5].value,
+      email: e.target[6].value,
       password: e.target[8].value,
     };
     register(dataSend).then((res) => {
