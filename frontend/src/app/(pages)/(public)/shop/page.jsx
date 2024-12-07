@@ -84,7 +84,7 @@ const Shop = () => {
           </Select>
         </div>
         <div className="flex justify-end mt-4">
-          <Button color="primary" onClick={() => setLoading(false)}>
+          <Button color="primary" onClick={() => setLoading(false)} className="rounded-md">
             Apply Filters
           </Button>
         </div>

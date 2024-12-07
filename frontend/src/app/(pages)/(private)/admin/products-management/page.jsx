@@ -340,7 +340,7 @@ const ProductsManagement = () => {
           </Select>
         </div>
         <div className="flex justify-end mt-4">
-          <Button color="primary" onClick={applyFilters}>
+          <Button color="primary" onClick={applyFilters} className="rounded-md">
             Apply Filters
           </Button>
         </div>

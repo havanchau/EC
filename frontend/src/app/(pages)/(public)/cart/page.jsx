@@ -125,7 +125,7 @@ const Cart = () => {
                 className="col-span-2 h-fit col-start-9 text-base cursor-pointer underline text-red-600 self-center"
                 onClick={() => handleDeleteProductFromCart({ id: item._id })}
               >
-                Delete this product!
+                Delete
               </div>
             </div>
           );
@@ -145,7 +145,7 @@ const Cart = () => {
         </div>
 
         <Button
-          className="self-center w-52 h-12 z-10 mb-5 bg-sky-600 !text-white relative font-semibold after:-z-20 after:absolute after:h-1 after:w-1 after:bg-sky-800 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 [text-shadow:3px_5px_2px_#075985;] hover:[text-shadow:2px_2px_2px_#7dd4fc] text-2xl"
+          className="rounded-md self-center w-52 h-12 z-10 mb-5 bg-sky-600 !text-white relative font-semibold after:-z-20 after:absolute after:h-1 after:w-1 after:bg-sky-800 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 [text-shadow:3px_5px_2px_#075985;] hover:[text-shadow:2px_2px_2px_#7dd4fc] text-2xl"
           onClick={() => handleClickCheckout()}
         >
           Checkout

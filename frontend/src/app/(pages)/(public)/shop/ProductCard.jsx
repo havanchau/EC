@@ -55,8 +55,8 @@ const ProductCard = ({ product }) => {
 
   return (
     <div className="cursor-pointer h-full" onClick={viewProductDetail}>
-      <Card className="shadow h-full hover:shadow-lg transition-all relative rounded bg-gray-100">
-        <CardHeader className="!p-0">
+      <Card className="w-[24rem] p-4 shadow h-full hover:shadow-lg transition-all relative rounded bg-gray-100">
+        <CardHeader className="!p-0 w-full">
           <Image
             src={
               product.images && product.images.length > 0
@@ -64,8 +64,10 @@ const ProductCard = ({ product }) => {
                 : "https://img.freepik.com/premium-vector/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.jpg"
             }
             alt={product.name}
-            className="w-full object-cover rounded-none"
+            className="w-[24rem] h-80"
+            style={{ 'objectFit': 'cover' }}
           />
+
         </CardHeader>
         <CardBody>
           <h3 className="text-xl font-semibold">{product.name}</h3>

@@ -8,7 +8,7 @@ const AddToCartBtn = ({ id }) => {
 
   return (
     <Button
-      className="bg-sky-800 text-white text-xl font-bold w-40"
+      className="bg-sky-700 text-white text-xl font-bold w-32 rounded-md"
       onClick={() => {
         let cart = JSON.parse(localStorage.getItem("cart")) || [];
         const productIndex = cart.findIndex((item) => item.productId === id);
